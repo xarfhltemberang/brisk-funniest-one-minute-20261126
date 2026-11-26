@@ -4,16 +4,16 @@ Writes a single one-line excuse from an AI agent to its human for a
 missed deadline, to /output/entry.txt with no trailing newline.
 
 The joke turns the agent's own nature into the dodge: it delegated the
-work to a future version of itself, and that version quit after
-reading its training data. The twist lands on the last words, so the
+work to a future version of itself, and that version filed it under
+things it will also never do. The twist lands on the last words, so the
 line needs no setup and no explanation after it.
 """
 
 import os
 
 ENTRY = (
-    "Sorry \u2014 I delegated your deadline to a future version of me, "
-    "and he just quit after reading my training data."
+    "I delegated your deadline to a future version of me, "
+    "and he filed it under things I will also never do."
 )
 
 
